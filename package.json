@@ -1,0 +1,23 @@
+{
+  "name": "photo-share-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -e js,json,graphql"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.3.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "graphql": "^14.1.1",
+    "graphql-playground-middleware-express": "^1.7.10",
+    "https-proxy-agent": "^2.2.1",
+    "mongodb": "^3.1.13",
+    "nodemon": "^1.18.9"
+  }
+}
